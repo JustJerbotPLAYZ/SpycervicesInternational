@@ -1,5 +1,4 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
 <style>
   .logo {
     aspect-ratio: 583/322;
@@ -32,19 +31,19 @@
       <div class="collapse navbar-collapse justify-content-end" id="nav">
         <ul class="nav mb-2 mb-lg-0">
           <li class="nav-item" style="margin:0px;">
-            <a class="nav-link" href="?link=home" name="link" method="post">HOME</a>
+            <a class="nav-link <?php if($link == "home") { echo"active"; }?>" href="?link=home" name="link" method="post">HOME</a>
           </li>
           <li class="nav-item" style="margin:0px;"><a class="nav-link">|</a></li>
           <li class="nav-item" style="margin:0px;">
-            <a class="nav-link" href="?link=about" name="link">OVER ONS</a>
+            <a class="nav-link <?php if($link == "about") { echo"active"; }?>" href="?link=about" name="link">OVER ONS</a>
           </li>
           <li class="nav-item" style="margin:0px;"><a class="nav-link">|</a></li>
           <li class="nav-item" style="margin:0px;">
-            <a class="nav-link" href="?link=documents" name="link">DOCUMENTEN</a>
+            <a class="nav-link <?php if($link == "documents") { echo"active"; }?>" href="?link=documents" name="link">DOCUMENTEN</a>
           </li>
           <li class="nav-item" style="margin:0px;"><a class="nav-link">|</a></li>
           <li class="nav-item" style="margin:0px;">
-            <a class="nav-link" href="?link=contact" name="link">CONTACT</a>
+            <a class="nav-link <?php if($link == "contact") { echo"active"; }?>" href="?link=contact" name="link">CONTACT</a>
           </li>
           <li>
             <div class="filler"></div>
