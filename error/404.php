@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-
+<style>
+</style>
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -9,9 +10,9 @@
         crossorigin="anonymous"></script>
 </head>
 
-<body>
-    <h1>Ahahaha dit is een error 404 pagina</h1>
-    <h2>we gaan je alleen niet vertellen wat er fout is gegaan</h2>
+<body style="background-color: #d7e0ea;">
+    <h1>De pagina waar je naartoe wilt gaan bestaat niet</h1>
+    <a href= "../index.php?link=home">ga terug naar de home pagina</a>
 </body>
 
 </html>

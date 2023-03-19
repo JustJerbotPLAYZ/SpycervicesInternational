@@ -1,4 +1,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<?php
+if (isset($_GET['link'])) {
+  $link = $_GET['link'];
+}
+?>
 <style>
   .logo {
     aspect-ratio: 583/322;

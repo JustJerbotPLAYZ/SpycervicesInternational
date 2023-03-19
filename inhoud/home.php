@@ -16,6 +16,7 @@
 
   body {
     width: 100vw;
+    background-color:#ffffff;
   }
 
   .displayInline {
@@ -30,10 +31,10 @@
 <title>Home</title>
 <img class="bgImg" src="img/bgHome.png" style="width:100vw"></img>
 <div class="row displayInline">
-  <div class="displayInline beScaredOfLeft"><text class="titel" style="color:#1e8adf;">Welkom bij
+  <div class="displayInline beScaredOfLeft" style="width:90vw;"><text class="titel" style="color:#1e8adf;">Welkom bij
       Spyservices</text> <text class="titel">International</text></div>
 </div>
-<div class="row" style="width:100vw;">
+<div class="row" style="width:90vw;">
   <p class="beScaredOfLeft text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque eros est.
     Nam diam diam, posuere quis velit non,<br>
     sollicitudin vulputate libero. Sed in hendrerit dolor. Donec tristique ut erat non maximus. Nulla lorem nisl, tempus

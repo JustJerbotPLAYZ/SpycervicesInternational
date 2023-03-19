@@ -8,7 +8,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
-    <!--<link href="inhoud/weee.css" rel="stylesheet">--><!-- haal deze uit comment om de grote's te kunnen zien-->
+   <link href="inhoud/weee.css" rel="stylesheet"><!-- haal deze uit comment om de grote's te kunnen zien-->
 </head>
 
 <style>
@@ -18,6 +18,7 @@
     scrollbar-width: none;
     /* for Firefox */
     overflow-y: scroll;
+    background-color: #d7e0ea;
   }
  /* body::before{
     z-index:1;
@@ -36,9 +37,13 @@
     ?>
   </header>
   <?php
-  $link = 'home';
+  $link = null;
   if (isset($_GET['link'])) {
     $link = $_GET['link'];
+  } else if($link==null){
+    $link = 'home';
+  }else{
+    $link = 'home';
   }
   if ($link == 'home') {
     include 'inhoud/home.php';

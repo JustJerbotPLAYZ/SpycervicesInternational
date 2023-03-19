@@ -1,6 +1,12 @@
-ErrorDocument 404 http://localhost/Spycervices_International/error/404.php
-
 RewriteEngine on
 
-#Options +FollowSymLinks
-#RewriteRule ^localhost.*$ http://localhost/spyinternational/ [R=301,L]
+
+
+
+RewriteRule ^home$ index.php?pagina=home
+RewriteRule ^overOns$ index.php?pagina=overOns
+RewriteRule ^docs$ index.php?pagina=docs
+RewriteRule ^contact$ index.php?pagina=contact
+
+
+ErrorDocument 404 /error/404.php
